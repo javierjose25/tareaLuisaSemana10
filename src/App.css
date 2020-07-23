@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  margin: 0;
+  background-color: black;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  width: 700px;
+  height: 300px;
+  margin-left: 380px;
+}
+.item{
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+
+}
+.item2{
+  background-color: purple;
+}
+
+
+h1{
+  color: purple;
+  font-style: italic;
+  display: center;
+}
